@@ -14,39 +14,67 @@ export class Tab3Page {
 
   listaAtores: IAtores[] = [
     {
-      nomeA: 'Julian Hiliard',
-      cartazA: 'https://images-ext-2.discordapp.net/external/vjJcrelI-EBA87aedyO_VEnuJl46r5OCJo-CrkFOs80/https/www.themoviedb.org/t/p/w300_and_h450_bestv2/umnRZFm9pQ9xB53PQwUPFOVul4j.jpg',
-      filmeA: ['Invocação do Mal 3','WandaVision'],
-      paginaA: '/julian',
-      ocupacaoA: 'Ator'
-    },
-    {
-      nomeA: 'Cadence Patton',
-      cartazA: 'https://images-ext-1.discordapp.net/external/hmSlYjbg_fpkbPh_Jd0RO7JIejvz5OT1rMp6KJOcklg/https/www.themoviedb.org/t/p/w300_and_h450_bestv2/rc7JUIVNUaBeIKOsMFqFGk6JRPc.jpg',
-      filmeA: ['Arqueiro', 'Flash'],
-      paginaA: '/cadence',
+      nomeA: 'Scarlett Johansson',
+      cartazA: 'https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uRxO44O5KjGBlP5xq3a6U0azp1H.jpg',
+      filmeA: ['Viúva Negra', 'Vingadores: Ultimato (2019)'],
+      paginaA: '/scarlett-johansson',
       ocupacaoA: 'Atriz'
     },
     {
-      nomeA: 'Paul Anderson',
-      cartazA: 'https://images-ext-2.discordapp.net/external/2OSJ8wn6vbJTWI6p50hruf--oFscLuD6H21A-RlZ-tU/https/www.themoviedb.org/t/p/w300_and_h450_bestv2/nds5rTBZvJ4rEsP4N6OaoEgQDkW.jpg',
-      filmeA: ['Peaky Blinders', 'Sherlock Holmes'],
-      paginaA: '/pau',
+      nomeA: 'Robert Downey Jr.',
+      cartazA: 'https://www.themoviedb.org/t/p/w300_and_h450_bestv2/im9SAqJPZKEbVZGmjXuLI4O7RvM.jpg',
+      filmeA: ['Sherlock Holmes', 'Vingadores: Ultimato (2019)'],
+      paginaA: '/robert-downey-jr.',
       ocupacaoA: 'Ator'
     },
     {
-      nomeA: 'Evangeline Lily',
-      cartazA: 'https://images-ext-2.discordapp.net/external/4hQicbw_r9IaUUuPXLFZ99o_btMe7ZQgY2zllLfpsKA/https/www.themoviedb.org/t/p/w300_and_h450_bestv2/fRbXVt9fhz6ndPhF1lRA92VxUDk.jpg',
-      filmeA: ['Gigantes de Aço', 'Homem-formiga'],
-      paginaA: '/',
-      ocupacaoA: 'Atriz'
-    },
-    {
-      nomeA: 'Chris Pratt',
-      cartazA: 'https://images-ext-2.discordapp.net/external/pc9fZ3Y9Nq0Q9po7N3RECfOnEi2gyxGixNznG6Guew0/https/www.themoviedb.org/t/p/w300_and_h450_bestv2/83o3koL82jt30EJ0rz4Bnzrt2dd.jpg',
-      filmeA: ['Super Mario Bross', 'Uma Aventura Lego'],
-      paginaA: '/chris',
+      nomeA: 'Wilken Mazzei',
+      cartazA: 'https://pbs.twimg.com/profile_images/447050311601909761/ZEi2-PCg_400x400.jpeg',
+      filmeA: ["Jojo's Bizarre Adventure", 'Attack on Titan'],
+      paginaA: '/jotaro',
       ocupacaoA: 'Dublador'
+    },
+    {
+      nomeA: 'Bryan Cranston',
+      cartazA: 'https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aGSvZg7uITJveQtGHDcPNI6map1.jpg',
+      filmeA: ['Breaking Bad', 'Argo'],
+      paginaA: '/bc',
+      ocupacaoA: 'Ator'
+    },
+    {
+      nomeA: 'Seo Yea-ji',
+      cartazA: 'https://www.themoviedb.org/t/p/w300_and_h450_bestv2/a9moiE8WWuygU02m4KE3M2Nrrkp.jpg',
+      filmeA: ['Tudo bem não ser normal', 'Eve'],
+      paginaA: '/seo',
+      ocupacaoA: 'Atriz'
+    },
+    {
+      nomeA: 'Jessica Barden',
+      cartazA: 'https://www.themoviedb.org/t/p/w300_and_h450_bestv2/A4WddlGjgLxcQfrILXmfHeaBD9p.jpg',
+      filmeA: ['The End of The F***ing World', 'Hanna'],
+      paginaA: '/jessica',
+      ocupacaoA: 'Atriz'
+    },
+    {
+      nomeA: 'Josh Hartnett',
+      cartazA: 'https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9JS3PeypxTmHVXOnLCMRzJzySxO.jpg',
+      filmeA: ['40 days & 40 nights', 'Pearl Harbor'],
+      paginaA: '/josh-hartnett',
+      ocupacaoA: 'Ator'
+    },
+    {
+      nomeA: 'Zendaya',
+      cartazA: 'https://www.themoviedb.org/t/p/w300_and_h450_bestv2/6TE2AlOUqcrs7CyJiWYgodmee1r.jpg',
+      filmeA: ['Homem Aranha: Sem Volta Para Casa', 'Euphoria'],
+      paginaA: '/zendaya',
+      ocupacaoA: 'Atriz'
+    },
+    {
+      nomeA: 'Cillian Murphy',
+      cartazA: 'https://bodysize.org/wp-content/uploads/2018/02/Cillian-Murphy-300x400.jpg',
+      filmeA: ['Peaky Blinders', 'A origem'],
+      paginaA: '/cillian-murphy',
+      ocupacaoA: 'Ator'
     }
     
   ];
