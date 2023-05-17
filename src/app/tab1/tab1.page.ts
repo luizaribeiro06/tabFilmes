@@ -14,88 +14,55 @@ export class Tab1Page {
 
   listaFilmes: IFilme[] = [
     {
-      nome: 'Viúva Negra',
-      lancamento: '08/07/2021 (BR)',
-      duracao: '2h15m',
+      nome: 'Shrek',
+      lancamento: '15/06/2007 (BR)',
+      duracao: '1h32m',
       classificacao: 7,
-      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rKq1Vlw0Bqe2EEvdmIkkkgPQAGf.jpg',
-      generos: ['Ação', 'Ficção Científica', 'Aventura'],
-      pagina: '/viuva',
+      cartaz: 'https://images-ext-2.discordapp.net/external/AUO7bNqxF8RBFhd9JIGm6T1qldXcyRha1g3JRKw8PTY/https/www.themoviedb.org/t/p/w600_and_h900_bestv2/abw1mIJIjG9X3xSEffE9siLcOkN.jpg?width=395&height=593',
+      generos: ['Fantasia','Animação'],
+      pagina: '/shrek',
       favorito: false
     },
     {
-      nome: 'Vingadores: Ultimato (2019)',
-      lancamento: '25/04/2019 (BR)',
-      duracao: '3h01m',
-      classificacao: 8,
-      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q6725aR8Zs4IwGMXzZT8aC8lh41.jpg',
-      generos: ['Aventura', 'Ficção científica', 'Ação'],
-      pagina: '/avengers',
-      favorito: false
-    },
-    {
-      nome: 'Sherlock Holmes',
-      lancamento: '08/08/2010 (BR)',
-      duracao: '2h09m',
-      classificacao: 7,
-      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/19ZNLpF6ibwcFIynGb65X3Z1bnL.jpg',
-      generos: ['Ação', 'Crime','Mistério', 'Aventura'],
-      pagina: '/holmes',
-      favorito: false
-    },
-    {
-      nome: 'Run!',
-      lancamento: '02/04/2021 (BR)',
-      duracao: '1h44m',
-      classificacao: 7,
-      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rEeTuQSsEyM2bSG7rwvm23WJjfg.jpg',
-      generos: ['Drama', 'Suspense', 'Terror'],
-      pagina: '/run',
-      favorito: false
-    },
-    {
-      nome: 'Madagascar 3: Os Procurados',
-      lancamento: '07/06/2012 (BR)',
+      nome: 'Super Mario Bross: O filme',
+      lancamento: '05/04/2023 (BR)',
       duracao: '1h33m',
+      classificacao: 7.4,
+      cartaz: 'https://images-ext-2.discordapp.net/external/pfzpqyLURHmnX8n5NccRGLDIYmwnM45dBWCT6dR8nZI/https/www.themoviedb.org/t/p/w600_and_h900_bestv2/kzYbNJ4JaQiRny0cDi8a6bNX5w3.jpg?width=395&height=593',
+      generos: ['Animação', 'Família'],
+      pagina: '/mario',
+      favorito: false
+    },
+    {
+      nome: 'Invocação do Mal 3: A Ordem do Demônio',
+      lancamento: '04/06/2021 (BR)',
+      duracao: '1h51m',
+      classificacao: 7.5,
+      cartaz: 'https://images-ext-2.discordapp.net/external/YRaQ7ojcl6Anz0iDEaMA07_pLXPjLO5O_ECxfsf9YWU/https/www.themoviedb.org/t/p/w600_and_h900_bestv2/tLmaOXT9rMb17ISQDURKQIu3Okk.jpg?width=395&height=593',
+      generos: ['Terror', 'Mistério'],
+      pagina: '/mal',
+      favorito: false
+    },
+    {
+      nome: 'Gigantes de Aço',
+      lancamento: '21/10/2011 (BR)',
+      duracao: '2h07m',
       classificacao: 7,
-      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bPRvFj9MGeLeqidaTniUf8yQ0PW.jpg',
-      generos: ['Animação','Família', 'Comédia','Aventura'],
-      pagina: '/madagascar',
+      cartaz: 'https://images-ext-1.discordapp.net/external/t9jMImfZocOamvIR5WcmqVcLScNgNmnKoCLxG10orzM/https/www.themoviedb.org/t/p/w600_and_h900_bestv2/pp74uUjwQTknGPqNrerj4FvU0ce.jpg?width=395&height=593',
+      generos: ['Ação', 'Drama'],
+      pagina: '/aço',
       favorito: false
     },
     {
-      nome: 'Os Smurfs e a Vila Perdida',
-      lancamento: '06/04/2017 (BR)',
-      duracao: '1h30m',
-      classificacao: 6,
-      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7DtiMnR55uSRIUAaIpnEMwYdGFD.jpg',
-      generos: ['Animação','Família', 'Comédia','Aventura'],
-      pagina: '/40dn',
-      favorito: false
-    },
-    {
-      nome: 'Smile',
-      lancamento: '29/09/2022 (BR)',
-      duracao: '1h55m',
-      classificacao: 7,
-      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/aDTXsc8uzJuvPLvfFBXTf9rYyTf.jpg',
-      generos: ['Mistério', 'Suspense', 'Terror'],
-      pagina: '/smile',
-      favorito: false
-    },
-    {
-      nome: '40 days & 40 nights',
-      lancamento: '30/05/2002 (BR)',
-      duracao: '1h36m',
-      classificacao: 5,
-      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/c0EdiB7bnGswLrHpeyLHAZkhONx.jpg',
-      generos: ['Comédia', 'Romance'],
-      pagina: '/40dn',
+      nome: 'Truque de Mestre',
+      lancamento: '05/07/2013 (BR)',
+      duracao: '1h56m',
+      classificacao: 7.3,
+      cartaz: 'https://images-ext-2.discordapp.net/external/TJM35xn1XRK4JWtSPcAhjeyumiZOBO1xX-8M3-4HLYM/https/www.themoviedb.org/t/p/w600_and_h900_bestv2/sUi3a3BTTku0vyLjJQgKtiWCok7.jpg?width=395&height=593',
+      generos: ['Crime', 'Thriller'],
+      pagina: '/mestre',
       favorito: false
     }
-
-    
-
   ];
 
   exibirFilme(filme: IFilme){

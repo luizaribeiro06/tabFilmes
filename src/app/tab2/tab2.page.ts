@@ -13,83 +13,53 @@ export class Tab2Page {
 
   listaSeries: ISerie[] = [
     {
-      nomeS: 'Breaking Bad',
-      lancamentoS: '20/01/2008 (BR)',
-      temporadaS: '5 temporadas',
-      classificacaoS: 9,
+      nomeS: 'Flash',
+      lancamentoS: '05/08/2014 (BR)',
+      temporadaS: '9 temporadas',
+      classificacaoS: 7.8,
       cartazS: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/30erzlzIOtOK3k3T3BAl1GiVMP1.jpg',
-      generosS: ['Drama', 'Crime'],
-      paginaS: '/mortal-kombat',
+      generosS: ['Drama', 'Sci-0fi & Fantasy'],
+      paginaS: '/flash',
       favoritoS: false
     },
     {
       nomeS: 'Peaky Blinders',
       lancamentoS: '12/09/2013 (BR)',
       temporadaS: '6 temporadas',
-      classificacaoS: 9,
+      classificacaoS: 10,
       cartazS: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bGZn5RVzMMXju4ev7xbl1aLdXqq.jpg',
       generosS: ['Drama', 'Crime'],
-      paginaS: '/mortal-kombat',
+      paginaS: '/peakyblinders',
       favoritoS: false
     },
     {
-      nomeS: 'Greys Anatomy',
-      lancamentoS: '27/05/2005 (BR)',
-      temporadaS: '19 temporadas',
-      classificacaoS: 8,
-      cartazS: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/diS4zWXohKIp9VuN9sJDRrqe5en.jpg',
-      generosS: ['Drama Médico', 'Comédia', 'Romance'],
-      paginaS: '/greys',
+      nomeS: 'Wandinha',
+      lancamentoS: '11/09/2022 (BR)',
+      temporadaS: '1 temporada',
+      classificacaoS: 8.6,
+      cartazS: 'https://images-ext-1.discordapp.net/external/Adwwd8_au8_ANFGp8lg2sGiUzzsHDSpUlFJwD0vdsPo/https/www.themoviedb.org/t/p/w600_and_h900_bestv2/ooBR3qulC40ws0QkYBUAYFKmLRE.jpg?width=395&height=593',
+      generosS: ['Mistério', 'Comédia'],
+      paginaS: '/wan',
       favoritoS: false
     },
     {
-      nomeS: 'Game of Thrones',
-      lancamentoS: '17/04/2011 (BR)',
-      temporadaS: '8 temporadas',
-      classificacaoS: 8,
-      cartazS: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/w8BVC3qrCWCiTHRz4Rft12dtQF0.jpg',
-      generosS: ['Sci-Fi & Fantasy','Drama','Ação', 'Aventura'],
-      paginaS: '/got',
-      favoritoS: false
-    },
-    {
-      nomeS: 'The Walking Dead',
-      lancamentoS: '31/10/2010 (BR)',
-      temporadaS: '11 temporadas',
-      classificacaoS: 8,
-      cartazS: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/w8BVC3qrCWCiTHRz4Rft12dtQF0.jpg',
-      generosS: ['Ação','Drama','Sci-Fi & Fantasy','Aventura'],
-      paginaS: '/the-walking-dead',
-      favoritoS: false
-    },
-    {
-      nomeS: 'Flash',
-      lancamentoS: '07/10/2014 (BR)',
-      temporadaS: '9 temporadas',
-      classificacaoS: 8,
-      cartazS: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lFxIoMKqkgTuxpghTPHBjoVstMV.jpg',
-      generosS: ['Drama', 'Sci-Fi & Fantasy'],
-      paginaS: '/flash',
-      favoritoS: false
-    },
-    {
-      nomeS: 'The Good Doctor',
-      lancamentoS: '25/09/2017 (BR)',
-      temporadaS: '6 temporadas',
-      classificacaoS: 8,
-      cartazS: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/v9WYk0nigzR9NAEjeSmfI6s4XA2.jpg',
-      generosS: ['Drama'],
-      paginaS: '/the-good-doctor',
-      favoritoS: false
-    },
-    {
-      nomeS: 'The Boys',
-      lancamentoS: '25/07/2019 (BR)',
+      nomeS: 'Dark',
+      lancamentoS: '08/07/2017 (BR)',
       temporadaS: '3 temporadas',
-      classificacaoS: 8,
-      cartazS: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ut4PhX7OP2l2oJhrIUYWnt9pnQU.jpg',
-      generosS: ['Sci-Fi & Fantasy', 'Ação', 'Aventura'],
-      paginaS: '/the-boys',
+      classificacaoS: 8.4,
+      cartazS: 'https://media.discordapp.net/attachments/991354329103605820/1108053811764932648/apbrbWs8M9lyOpJYU5WXrpFbk1Z.png?width=395&height=593',
+      generosS: ['Drama', 'Mistério'],
+      paginaS: '/dark',
+      favoritoS: false
+    },
+    {
+      nomeS: 'One Punch Man',
+      lancamentoS: '14/02/2015 (BR)',
+      temporadaS: '2 temporadas',
+      classificacaoS: 8.4,
+      cartazS: 'https://images-ext-2.discordapp.net/external/vi6egfKINuPFtiNTVZb3ouG8QCSnWpVT7_2040bwpgs/https/www.themoviedb.org/t/p/w600_and_h900_bestv2/iE3s0lG5QVdEHOEZnoAxjmMtvne.jpg?width=395&height=593',
+      generosS: ['Ação', 'Aventura'],
+      paginaS: '/man',
       favoritoS: false
     }
   ];
